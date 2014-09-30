@@ -18,7 +18,7 @@
     "url": "http://www.lewatoto.blogspot.com"
   },
   "installs_allowed_from": [
-    "*"
+    "http://lewatoto.github.io/calculadora-rlc"
   ],
   "default_locale": "es"
 }
