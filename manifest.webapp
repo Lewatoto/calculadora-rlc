@@ -1,17 +1,17 @@
 {
   "version": "1",
   "name": "Calculadora RLC",
-  "launch_path": "/index.html",
+  "launch_path": "/calculadora-rlc/index.html",
   "type": "web",
   "description": "Conoce el valor de los resistores, capacitores e inductores",
   "icons": {
-    "16": "/imagenes/icono/icono16.png",
-    "32": "/imagenes/icono/icono32.png",
-    "48": "/imagenes/icono/icono48.png",
-    "60": "/imagenes/icono/icono60.png",
-    "64": "/imagenes/icono/icono64.png",
-    "128": "/imagenes/icono/icono128.png",
-    "256": "/imagenes/icono/icono256.png"
+    "16": "/calculadora-rlc/imagenes/icono/icono16.png",
+    "32": "/calculadora-rlc/imagenes/icono/icono32.png",
+    "48": "/calculadora-rlc/imagenes/icono/icono48.png",
+    "60": "/calculadora-rlc/imagenes/icono/icono60.png",
+    "64": "/calculadora-rlc/imagenes/icono/icono64.png",
+    "128": "/calculadora-rlc/imagenes/icono/icono128.png",
+    "256": "/calculadora-rlc/imagenes/icono/icono256.png"
   },
   "developer": {
     "name": "Gerson Alvarado",
