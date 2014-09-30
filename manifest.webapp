@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "name": "Calculadora RLC",
+  "launch_path": "/index.html",
+  "description": "Conoce el valor de los resistores, capacitores e inductores",
+  "icons": {
+    "16": "/imagenes/icono/icono16.png",
+    "32": "/imagenes/icono/icono32.png",
+    "48": "/imagenes/icono/icono48.png",
+    "60": "/imagenes/icono/icono60.png",
+    "64": "/imagenes/icono/icono64.png",
+    "128": "/imagenes/icono/icono128.png"
+  },
+  "developer": {
+    "name": "Gerson Alvarado",
+    "url": "http://www.lewatoto.blogspot.com"
+  },
+  "installs_allowed_from": [
+    "http://lewatoto.github.io/calculadora-rlc"
+  ],
+  "default_locale": "es"
+}

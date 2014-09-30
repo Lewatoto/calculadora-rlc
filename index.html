@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de valores</title>
+<link href="css/todo.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div id="titulo">
+    Calculadora RLC
+    </div>
+        
+    <br>
+    <div id="contenido2">
+        
+    <div id="contenido">
+        <h2>Resistor</h2>
+        <center>
+        <img src="./imagenes/resistor.png" id="iresistor">
+        </center>
+        Valor del resistor:<input type="text" id="resultadoresistor" readonly>Ω<br> 
+        <form id="resistorf">
+            <select id="resistor1" onChange="vresistor()">
+                <option value="0">1</option>
+                <option value="0">Negro</option>
+                <option value="1">Marrón</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Verde</option>
+                <option value="6">Azul</option>
+                <option value="7">Morado</option>
+                <option value="8">Gris</option>
+                <option value="9">Blanco</option>
+            </select>
+
+            <select id="resistor2" onChange="vresistor()">
+                <option value="0">2</option>
+                <option value="0">Negro</option>
+                <option value="1">Marrón</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Verde</option>
+                <option value="6">Azul</option>
+                <option value="7">Morado</option>
+                <option value="8">Gris</option>
+                <option value="9">Blanco</option>
+            </select>
+       
+            <select id="resistor3" onChange="vresistor()">
+                <option value="0">3</option>
+                <option value="-2">Plateado</option>
+                <option value="-1">Dorado</option>
+                <option value="0">Negro</option>
+                <option value="1">Marrón</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Verde</option>
+                <option value="6">Azul</option>
+                <option value="7">Morado</option>
+                <option value="8">Gris</option>
+                <option value="9">Blanco</option>
+            </select>
+         
+            <select id="resistor4" onChange="vresistor()">
+                <option value="0">4</option>
+                <option value="0.05">Gris</option>
+                <option value="0.25">Azul</option>
+                <option value="0.5">Verde</option>
+                <option value="1">Marrón</option>
+                <option value="2">Rojo</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Dorado</option>
+                <option value="10">Plateado</option>
+                <option value="20">Ninguno</option>
+            </select>
+        </form>
+        <br>
+    </div>   
+    
+    <br>    
+        
+    <div id="contenido">
+        <h2>Inductor</h3>
+        <center>
+            <img src="./imagenes/inductor.png" id="iinductor">
+        </center>
+        Valor del inductor:<input type="text" id="resultadoinductor" readonly>H<br> 
+        <form>
+            <select id="inductor1" onChange="vinductor()">
+                <option value="0">1</option>
+                <option value="0">Negro</option>
+                <option value="1">Marrón</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Verde</option>
+                <option value="6">Azul</option>
+                <option value="7">Morado</option>
+                <option value="8">Gris</option>
+                <option value="9">Blanco</option>
+            </select>
+
+            <select id="inductor2" onChange="vinductor()">
+                <option value="0">2</option>
+                <option value="0">Negro</option>
+                <option value="1">Marrón</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Verde</option>
+                <option value="6">Azul</option>
+                <option value="7">Morado</option>
+                <option value="8">Gris</option>
+                <option value="9">Blanco</option>
+            </select>
+            
+            <select id="inductor3" onChange="vinductor()">
+                <option value="0">3</option>
+                <option value="-2">Plateado</option>
+                <option value="-1">Dorado</option>
+                <option value="0">Negro</option>
+                <option value="1">Marrón</option>
+                <option value="2">Rojo</option>
+                <option value="3">Naranja</option>
+                <option value="4">Amarillo</option>
+            </select>
+         
+            <select id="inductor4" onChange="vinductor()">
+                <option value="0">4</option>
+                <option value="1">Marrón</option>
+                <option value="2">Rojo</option>
+                <option value="4">Amarillo</option>
+                <option value="5">Dorado</option>
+                <option value="10">Plateado</option>
+                <option value="20">Ninguno</option>
+            </select>
+        </form>
+    </div>
+    
+    <br>    
+        
+    <div id="contenido">
+        <h2>Capacitor</h2>
+        <center>
+            <img src="./imagenes/capacitor.png" id="icapacitor">
+        </center> 
+        Valor del capacitor:
+        <input type="text" id="resultadocapacitor" size="25" readonly>F<br>
+        <form>
+            <select id="capacitor1" onChange="vcapacitor()">
+                <option value=" "> - </option>
+                <option value="4">0G</option>
+                <option value="5.5">0L</option>
+                <option value="6.3">0J</option>
+                <option value="10">1A</option>
+                <option value="16">1C</option>
+                <option value="25">1E</option>
+                <option value="50">1H</option>
+                <option value="63">1J</option>
+                <option value="80">1K</option>
+                <option value="100">2A</option>
+                <option value="110">2Q</option>
+                <option value="125">2B</option>
+                <option value="160">2C</option>
+                <option value="180">2Z</option>
+                <option value="200">2D</option>
+                <option value="220">2P</option>
+                <option value="250">2E</option>
+                <option value="315">2F</option>
+                <option value="350">2V</option>
+                <option value="400">2G</option>
+                <option value="450">2W</option>
+                <option value="500">2H</option>
+                <option value="630">2J</option>
+                <option value="1000">3A</option>
+            </select>
+        
+            <select id="capacitor2" onchange="vcapacitor()">
+                <option value="0">-</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            
+            <select id="capacitor3" onchange="vcapacitor()">
+                <option value="0">-</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            
+            <select id="capacitor4" onchange="vcapacitor()">
+                <option value="0">-</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            
+            <select id="capacitor5" onchange="vcapacitor()">
+                <option value=" ">-</option>
+                <option value=" +/- 20%">Ninguno</option>
+                <option value=" +/- 0.10 p">B</option>
+                <option value=" +/- 0.25 p">C</option>
+                <option value=" +/- 0.5 p">D</option>
+                <option value=" +/- 0.5%">E</option>
+                <option value=" +/- 1%">F</option>
+                <option value=" +/- 2%">G</option>
+                <option value=" +/- 3%">H</option>
+                <option value=" +/- 5%">J</option>
+                <option value=" +/- 10%">K</option>
+                <option value=" +/- 20%">M</option>
+                <option value=" +/- 30%">N</option>
+                <option value=" +100%  -0%">P</option>
+                <option value=" +80%  -20%">Z</option>
+            </select>
+        </form>
+    </div>
+        
+        </div>
+
+    
+</body>
+    
+<footer>
+    <script src="./js/todo.js"></script>
+</footer>
+</html>

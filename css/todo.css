@@ -1,0 +1,162 @@
+@media screen and (max-width: 799px){
+    body {
+        background-color: #fbfbfc;
+    }
+
+    h2 {
+        padding-left: 1rem;   
+    }
+
+    #titulo {
+        color: #484848;
+        background-color: #a7ebfa;
+        font-size: 30px;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        border-color: #92cedb;
+        margin: 0 auto;
+    }
+
+    #contenido {
+        padding-left: 1rem;
+        font-family: sans-serif;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: #e6e6e8;
+        background-color: #f7f7f9;
+        color: #484848;
+    }
+
+    #resultadoresistor, #resultadoinductor {
+        text-align: right;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        width: 170px;
+        resize: none;
+        border: 0.1rem solid #c7c7c7;
+        border-radius: 0;
+        box-shadow: none; 
+        color: #333;
+        background: #fff;
+        margin: 0 0 1rem 0;
+    }
+
+    #resultadocapacitor {
+        text-align: right;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        width: 260px;
+        resize: none;
+        border: 0.1rem solid #c7c7c7;
+        border-radius: 0;
+        box-shadow: none; 
+        color: #333;
+        background: #fff;
+        margin: 0 0 1rem 0;
+    }
+
+    #resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
+        font-family: sans-serif;
+        vertical-align: middle;
+        border: solid;
+        border-color: #92cedb;
+        border-width: 1px;
+        border-radius: 2rem;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        background: #a7ebfa;
+        color: #484848;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width:800px){
+    body {
+        background-color: #fbfbfc;
+    }
+
+    h2 {
+        padding-left: 1rem;   
+    }
+
+    #titulo {
+        color: #484848;
+        width: 70%;
+        background-color: #a7ebfa;
+        font-size: 30px;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        border-color: #92cedb;
+        margin: 0 auto;
+    }
+
+    #contenido {
+        width: 70%;
+        margin: 0 auto;
+        padding-left: 1rem;
+        font-family: sans-serif;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: #e6e6e8;
+        background-color: #f7f7f9;
+        color: #484848;
+    }
+
+    #resultadoresistor, #resultadoinductor {
+        text-align: right;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        width: 170px;
+        resize: none;
+        border: 0.1rem solid #c7c7c7;
+        border-radius: 0;
+        box-shadow: none; 
+        color: #333;
+        background: #fff;
+        margin: 0 0 1rem 0;
+    }
+
+    #resultadocapacitor {
+        text-align: right;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        width: 260px;
+        resize: none;
+        border: 0.1rem solid #c7c7c7;
+        border-radius: 0;
+        box-shadow: none; 
+        color: #333;
+        background: #fff;
+        margin: 0 0 1rem 0;
+    }
+
+    #resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
+        font-family: sans-serif;
+        vertical-align: middle;
+        border: solid;
+        border-color: #92cedb;
+        border-width: 1px;
+        border-radius: 2rem;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        background: #a7ebfa;
+        color: #484848;
+        margin-bottom: 1rem;
+    }
+}
