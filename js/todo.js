@@ -2,8 +2,10 @@ var request = navigator.mozApps.checkInstalled("http://lewatoto.github.io/calcul
 request.onsuccess = function() {
   if (request.result) {
     // está instalada
+      alert("Esta instalada");
   } else {
     // no está instalada
+      alert("obten la aplicacion en");
   }
 };
 request.onerror = function() {
