@@ -1,3 +1,15 @@
+var request = navigator.mozApps.checkInstalled("http://ruta.a/mi/aplicacion.de.ejemplo");
+request.onsuccess = function() {
+  if (request.result) {
+    // está instalada
+  } else {
+    // no está instalada
+  }
+};
+request.onerror = function() {
+  alert('Error verificando estado de la instalación: ' + this.error.message);
+};
+
 var vresistor = function () {
     var franja1 = document.getElementById("resistor1");
     var valor1 = franja1.options[franja1.selectedIndex].value;
