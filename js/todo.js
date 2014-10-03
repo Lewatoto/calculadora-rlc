@@ -1,4 +1,4 @@
-var request = navigator.mozApps.checkInstalled("http://ruta.a/mi/aplicacion.de.ejemplo");
+var request = navigator.mozApps.checkInstalled("http://lewatoto.github.io/calculadora-rlc/manifest.webapp");
 request.onsuccess = function() {
   if (request.result) {
     // está instalada
