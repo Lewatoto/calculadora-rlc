@@ -100,3 +100,13 @@ var vcapacitor = function () {
         document.getElementById("resultadocapacitor").value = valort + " VDC " + resultado.toFixed(2) + valortol + " " + exponente;
     }
 };
+
+var install = function () {
+    var inst = window.navigator.mozApps.install("http://lewatoto.github.io/calculadora-rlc/manifest.webapp")
+	   inst.onsuccess = function () {
+		  alert('Instalado correctamente.')
+	   }
+	   inst.onerror = function () {
+		  alert('Error en la instalación ('+this.error.name+')')
+	   }
+}

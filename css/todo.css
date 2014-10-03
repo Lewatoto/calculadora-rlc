@@ -31,6 +31,18 @@
         color: #484848;
     }
 
+    #informacion {
+        padding-left: 1rem;
+        font-family: sans-serif;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: #e6e6e8;
+        background-color: #f7f7f9;
+        color: #484848;
+    }
+    
     #resultadoresistor, #resultadoinductor {
         text-align: right;
         font-family: sans-serif;
@@ -107,6 +119,20 @@
     }
 
     #contenido {
+        width: 70%;
+        margin: 0 auto;
+        padding-left: 1rem;
+        font-family: sans-serif;
+        align-items: center;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: #e6e6e8;
+        background-color: #f7f7f9;
+        color: #484848;
+    }
+    
+    #informacion {
         width: 70%;
         margin: 0 auto;
         padding-left: 1rem;
