@@ -101,7 +101,7 @@ var vcapacitor = function () {
     }
 };
 
-var install = function () {
+/*var install = function () {
     var inst = window.navigator.mozApps.install("http://lewatoto.github.io/calculadora-rlc/manifest.webapp")
 	   inst.onsuccess = function () {
 		  alert('Instalado correctamente.')
@@ -109,4 +109,4 @@ var install = function () {
 	   inst.onerror = function () {
 		  alert('Error en la instalación ('+this.error.name+')')
 	   }
-}
+}*/

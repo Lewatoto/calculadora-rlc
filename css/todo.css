@@ -8,6 +8,11 @@ h2 {
     padding-left: 1rem;   
 }
 
+a {
+    text-decoration: none;
+    color: #484800;
+}
+
 #resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
     font-family: Fira Sans, sans-serif;
     vertical-align: middle;
@@ -47,7 +52,7 @@ h2 {
     border-width: 1px;
     border-radius: 5px;
     border-color: #e6e6e8;
-    background-color: #f7f7f9;
+    background-color: #F4F4F4;
     color: #484848;
 }
 
