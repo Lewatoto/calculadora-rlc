@@ -1,17 +1,3 @@
-var request = navigator.mozApps.checkInstalled("http://lewatoto.github.io/calculadora-rlc/manifest.webapp");
-request.onsuccess = function() {
-  if (request.result) {
-    // está instalada
-      alert("Esta instalada");
-  } else {
-    // no está instalada
-      alert("obten la aplicacion en");
-  }
-};
-request.onerror = function() {
-  alert('Error verificando estado de la instalación: ' + this.error.message);
-};
-
 var vresistor = function () {
     var franja1 = document.getElementById("resistor1");
     var valor1 = franja1.options[franja1.selectedIndex].value;

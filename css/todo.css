@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700);
+
 @media screen and (max-width: 799px){
     body {
         background-color: #fbfbfc;
@@ -9,6 +11,7 @@
 
     #titulo {
         color: #484848;
+        font-family: Fira Sans, sans-serif;        
         background-color: #a7ebfa;
         font-size: 30px;
         text-align: center;
@@ -21,7 +24,7 @@
 
     #contenido {
         padding-left: 1rem;
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
         align-items: center;
         border-style: solid;
         border-width: 1px;
@@ -33,7 +36,7 @@
 
     #informacion {
         padding-left: 1rem;
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
         align-items: center;
         border-style: solid;
         border-width: 1px;
@@ -45,7 +48,7 @@
     
     #resultadoresistor, #resultadoinductor {
         text-align: right;
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
         box-sizing: border-box;
         width: 12rem;
         font-weight: normal;
@@ -62,7 +65,7 @@
 
     #resultadocapacitor {
         text-align: right;
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
         box-sizing: border-box;
         width: 19rem;
         font-weight: normal;
@@ -78,7 +81,7 @@
     }
 
     #resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
         vertical-align: middle;
         border: solid;
         border-color: #92cedb;
@@ -107,36 +110,39 @@
 
     #titulo {
         color: #484848;
-        width: 70%;
+        width: 90%;
         background-color: #a7ebfa;
-        font-size: 30px;
+        font-family: Fira Sans, sans-serif;
+        font-size: 2rem;
         text-align: center;
         border-style: solid;
         border-width: 1px;
-        border-radius: 2px;
+        border-radius: 0.5rem;
         border-color: #92cedb;
         margin: 0 auto;
     }
 
     #contenido {
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
         padding-left: 1rem;
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
+        font-size: 1rem;
         align-items: center;
         border-style: solid;
         border-width: 1px;
-        border-radius: 5px;
+        border-radius: 1rem;
         border-color: #e6e6e8;
         background-color: #f7f7f9;
         color: #484848;
     }
     
     #informacion {
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
         padding-left: 1rem;
-        font-family: sans-serif;
+        font-size: 1rem;
+        font-family: Fira Sans, sans-serif;
         align-items: center;
         border-style: solid;
         border-width: 1px;
@@ -148,9 +154,10 @@
 
     #resultadoresistor, #resultadoinductor {
         text-align: right;
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
         box-sizing: border-box;
-        width: 170px;
+        width: 12rem;
+        font-size: 1rem;
         resize: none;
         border: 0.1rem solid #c7c7c7;
         border-radius: 0;
@@ -162,9 +169,10 @@
 
     #resultadocapacitor {
         text-align: right;
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
         box-sizing: border-box;
-        width: 260px;
+        font-size: 1rem;
+        width: 19rem;
         resize: none;
         border: 0.1rem solid #c7c7c7;
         border-radius: 0;
@@ -175,7 +183,7 @@
     }
 
     #resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
-        font-family: sans-serif;
+        font-family: Fira Sans, sans-serif;
         vertical-align: middle;
         border: solid;
         border-color: #92cedb;
