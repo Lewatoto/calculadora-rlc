@@ -3,7 +3,7 @@
   "name": "Calculadora RLC",
   "launch_path": "/calculadora-rlc/index.html",
   "type": "web",
-  "orientation": ["portrait","landscape-secondary"],
+  "orientation": ["landscape","landscape-secondary"],
   "description": "Conoce el valor de los resistores, capacitores e inductores",
   "icons": {
     "16": "/calculadora-rlc/imagenes/icono/icono16.png",
