@@ -1,140 +1,118 @@
 @import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700);
 
-@media screen and (max-width: 799px){
-    body {
-        background-color: #fbfbfc;
-    }
+body {
+    background-color: #fbfbfc;
+}
 
-    h2 {
-        padding-left: 1rem;   
-    }
+h2 {
+    padding-left: 1rem;   
+}
 
-    #titulo {
-        color: #484848;
-        font-family: Fira Sans, sans-serif;        
-        background-color: #a7ebfa;
-        font-size: 30px;
-        text-align: center;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 2px;
-        border-color: #92cedb;
-        margin: 0 auto;
-    }
-
-    #contenido {
-        padding-left: 1rem;
-        font-family: Fira Sans, sans-serif;
-        align-items: center;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 5px;
-        border-color: #e6e6e8;
-        background-color: #f7f7f9;
-        color: #484848;
-    }
-
-    #informacion {
-        padding-left: 1rem;
-        font-family: Fira Sans, sans-serif;
-        align-items: center;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 5px;
-        border-color: #e6e6e8;
-        background-color: #f7f7f9;
-        color: #484848;
-    }
+#resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
+    font-family: Fira Sans, sans-serif;
+    vertical-align: middle;
+    border: solid;
+    border-color: #92cedb;
+    border-width: 1px;
+    border-radius: 2rem;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background: #a7ebfa;
+    color: #484848;
+    margin-bottom: 1rem;
+}
     
-    #resultadoresistor, #resultadoinductor {
-        text-align: right;
-        font-family: Fira Sans, sans-serif;
-        box-sizing: border-box;
-        width: 12rem;
-        font-weight: normal;
-        line-height: 2rem;
-        font-size: 1.2rem;
-        resize: none;
-        border: 0.1rem solid #c7c7c7;
-        border-radius: 0;
-        box-shadow: none; 
-        color: #333;
-        background: #fff;
-        margin: 0 0 1rem 0;
-    }
+#titulo {
+    color: #484848;
+    font-family: Fira Sans, sans-serif;        
+    background-color: #a7ebfa;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: #92cedb;
+    margin: 0 auto;
+}
 
-    #resultadocapacitor {
-        text-align: right;
-        font-family: Fira Sans, sans-serif;
-        box-sizing: border-box;
-        width: 19rem;
-        font-weight: normal;
-        line-height: 2rem;
-        font-size: 1.2rem;
-        resize: none;
-        border: 0.1rem solid #c7c7c7;
-        border-radius: 0;
-        box-shadow: none; 
-        color: #333;
-        background: #fff;
-        margin: 0 0 1rem 0;
-    }
+#contenido {
+    padding-left: 1rem;
+    font-family: Fira Sans, sans-serif;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #e6e6e8;
+    background-color: #f7f7f9;
+    color: #484848;
+}
 
-    #resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
-        font-family: Fira Sans, sans-serif;
-        vertical-align: middle;
-        border: solid;
-        border-color: #92cedb;
-        border-width: 1px;
-        border-radius: 2rem;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 2rem;
-        text-align: center;
-        text-decoration: none;
-        outline: none;
-        background: #a7ebfa;
-        color: #484848;
-        margin-bottom: 1rem;
-    }
+#informacion {
+    padding-left: 1rem;
+    font-family: Fira Sans, sans-serif;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #e6e6e8;
+    background-color: #f7f7f9;
+    color: #484848;
+}
+    
+#resultadoresistor, #resultadoinductor {
+    text-align: right;
+    font-family: Fira Sans, sans-serif;
+    box-sizing: border-box;
+    width: 12rem;
+    font-weight: normal;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    resize: none;
+    border: 0.1rem solid #c7c7c7;
+    border-radius: 0;
+    box-shadow: none; 
+    color: #333;
+    background: #fff;
+    margin: 0 0 1rem 0;
+}
+
+#resultadocapacitor {
+    text-align: right;
+    font-family: Fira Sans, sans-serif;
+    box-sizing: border-box;
+    width: 19rem;
+    font-weight: normal;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    resize: none;
+    border: 0.1rem solid #c7c7c7;
+    border-radius: 0;
+    box-shadow: none; 
+    color: #333;
+    background: #fff;
+    margin: 0 0 1rem 0;
+}
+
+
+@media screen and (max-width: 799px){
+    
 }
 
 @media screen and (min-width:800px){
-    body {
-        background-color: #fbfbfc;
-    }
-
-    h2 {
-        padding-left: 1rem;   
-    }
-
     #titulo {
-        color: #484848;
         width: 90%;
-        background-color: #a7ebfa;
-        font-family: Fira Sans, sans-serif;
-        font-size: 2rem;
-        text-align: center;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 0.5rem;
-        border-color: #92cedb;
+        font-size: 2.5rem;
         margin: 0 auto;
     }
 
     #contenido {
         width: 90%;
         margin: 0 auto;
-        padding-left: 1rem;
-        font-family: Fira Sans, sans-serif;
-        font-size: 1rem;
-        align-items: center;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 1rem;
-        border-color: #e6e6e8;
-        background-color: #f7f7f9;
-        color: #484848;
+        font-size: 1.5rem;
     }
     
     #informacion {
@@ -142,61 +120,14 @@
         margin: 0 auto;
         padding-left: 1rem;
         font-size: 1rem;
-        font-family: Fira Sans, sans-serif;
-        align-items: center;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 5px;
-        border-color: #e6e6e8;
-        background-color: #f7f7f9;
-        color: #484848;
     }
 
     #resultadoresistor, #resultadoinductor {
-        text-align: right;
-        font-family: Fira Sans, sans-serif;
-        box-sizing: border-box;
-        width: 12rem;
-        font-size: 1rem;
-        resize: none;
-        border: 0.1rem solid #c7c7c7;
-        border-radius: 0;
-        box-shadow: none; 
-        color: #333;
-        background: #fff;
-        margin: 0 0 1rem 0;
+        font-size: 1.5rem;
     }
 
     #resultadocapacitor {
-        text-align: right;
-        font-family: Fira Sans, sans-serif;
-        box-sizing: border-box;
-        font-size: 1rem;
-        width: 19rem;
-        resize: none;
-        border: 0.1rem solid #c7c7c7;
-        border-radius: 0;
-        box-shadow: none; 
-        color: #333;
-        background: #fff;
-        margin: 0 0 1rem 0;
+        font-size: 1.5rem;
     }
 
-    #resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
-        font-family: Fira Sans, sans-serif;
-        vertical-align: middle;
-        border: solid;
-        border-color: #92cedb;
-        border-width: 1px;
-        border-radius: 2rem;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 2rem;
-        text-align: center;
-        text-decoration: none;
-        outline: none;
-        background: #a7ebfa;
-        color: #484848;
-        margin-bottom: 1rem;
-    }
 }
