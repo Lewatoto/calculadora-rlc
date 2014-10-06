@@ -1,0 +1,9 @@
+{
+    "name": "Calculadora RLC",
+    "package_path" : "http://lewatoto.github.io/calculadora-rlc/paquete/package.zip",
+    "version": "1.0",
+    "developer": {
+        "name": "Gerson Alvarado",
+        "url": "http://frechako.blogspot.com"
+    }
+}
