@@ -2,6 +2,7 @@
   <body>
     <p>Packaged app installation page</p>
     <script>
+        var instalarp = function () {
       // This URL must be a full url.
       var manifestUrl = 'http://lewatoto.github.io/calculadora-rlc/package.manifest';
       var req = navigator.mozApps.installPackage(manifestUrl);
@@ -11,6 +12,8 @@
       req.onerror = function() {
         alert(this.error.name);
       };
+        };
     </script>
+      <button onclick="instalarp">instalar</button>
   </body>
 </html>
