@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# v1 2014-10-03
+
+index.html
+/css/todo.css
+/js/todo.js
+/imagenes/capacitor.png
+/imagenes/inductor.png
+/imagenes/resistor.png
+
+NETWORK
+*
