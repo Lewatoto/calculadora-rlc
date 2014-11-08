@@ -2,11 +2,11 @@ CACHE MANIFEST
 # v1 2014-10-03
 
 index.html
-/css/todo.css
-/js/todo.js
-/imagenes/capacitor.png
-/imagenes/inductor.png
-/imagenes/resistor.png
+calculadora-rlc/css/todo.css
+calculadora-rlc/js/todo.js
+calculadora-rlc/imagenes/capacitor.png
+calculadora-rlc/imagenes/inductor.png
+calculadora-rlc/imagenes/resistor.png
 
 NETWORK
 *
