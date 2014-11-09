@@ -13,7 +13,7 @@ a {
     color: #484800;
 }
 
-#resistor1, #resistor2, #resistor3, #resistor4, #inductor1, #inductor2, #inductor3, #inductor4, #capacitor1, #capacitor2, #capacitor3, #capacitor4, #capacitor5 {
+.resistor, .inductor, .capacitor {
     font-family: Fira Sans, sans-serif;
     vertical-align: middle;
     border: solid;
