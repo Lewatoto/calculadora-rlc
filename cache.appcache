@@ -3,7 +3,6 @@ CACHE MANIFEST
 # Time: Sun Nov 09 2014 05:02:57 GMT+0000 (UTC)
 
 CACHE:
-http://lewatoto.github.io/calculadora-rlc/
 http://lewatoto.github.io/calculadora-rlc/cache.appcache
 http://lewatoto.github.io/calculadora-rlc/css/todo.css
 http://lewatoto.github.io/calculadora-rlc/js/todo.js
@@ -11,7 +10,6 @@ http://lewatoto.github.io/calculadora-rlc/imagenes/resistor.png
 http://lewatoto.github.io/calculadora-rlc/imagenes/inductor.png
 http://lewatoto.github.io/calculadora-rlc/imagenes/capacitor.png
 http://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700
-http://lewatoto.github.io/calculadora-rlc/*
 
 NETWORK:
 *
