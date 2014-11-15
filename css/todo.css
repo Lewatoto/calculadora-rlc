@@ -2,6 +2,7 @@
 
 body {
     background-color: #fbfbfc;
+    font-family: Fira Sans, sans-serif;  
 }
 
 h2 {
@@ -14,7 +15,6 @@ a {
 }
 
 .resistor, .inductor, .capacitor {
-    font-family: Fira Sans, sans-serif;
     vertical-align: middle;
     border: solid;
     border-color: #92cedb;
@@ -33,20 +33,18 @@ a {
     
 #titulo {
     color: #484848;
-    font-family: Fira Sans, sans-serif;        
     background-color: #a7ebfa;
     font-size: 30px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
-    border-radius: 2px;
+    border-radius: 0.5rem;
     border-color: #92cedb;
     margin: 0 auto;
 }
 
-#contenido {
+.contenido {
     padding-left: 1rem;
-    font-family: Fira Sans, sans-serif;
     align-items: center;
     border-style: solid;
     border-width: 1px;
@@ -54,11 +52,12 @@ a {
     border-color: #e6e6e8;
     background-color: #F4F4F4;
     color: #484848;
+
 }
+
 
 #informacion {
     padding-left: 1rem;
-    font-family: Fira Sans, sans-serif;
     align-items: center;
     border-style: solid;
     border-width: 1px;
@@ -70,7 +69,6 @@ a {
     
 #resultadoresistor, #resultadoinductor {
     text-align: right;
-    font-family: Fira Sans, sans-serif;
     box-sizing: border-box;
     width: 12rem;
     font-weight: normal;
@@ -87,7 +85,6 @@ a {
 
 #resultadocapacitor {
     text-align: right;
-    font-family: Fira Sans, sans-serif;
     box-sizing: border-box;
     width: 16.5rem;
     font-weight: normal;
@@ -109,12 +106,11 @@ a {
 
 @media screen and (min-width:800px){
     #titulo {
-        width: 90%;
         font-size: 2.5rem;
         margin: 0 auto;
     }
 
-    #contenido {
+    #todo {
         width: 90%;
         margin: 0 auto;
         font-size: 1.5rem;
@@ -123,8 +119,7 @@ a {
     #informacion {
         width: 90%;
         margin: 0 auto;
-        padding-left: 1rem;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     #resultadoresistor, #resultadoinductor {

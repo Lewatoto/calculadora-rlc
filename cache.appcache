@@ -1,15 +1,12 @@
 CACHE MANIFEST
+# v1 2014-11-08
 
-# Time: Sun Nov 09 2014 05:02:57 GMT+0000 (UTC)
+index.html
+css/todo.css
+js/todo.js
+imagenes/capacitor.png
+imagenes/inductor.png
+imagenes/resistor.png
 
-CACHE:
-http://lewatoto.github.io/calculadora-rlc/cache.appcache
-http://lewatoto.github.io/calculadora-rlc/css/todo.css
-http://lewatoto.github.io/calculadora-rlc/js/todo.js
-http://lewatoto.github.io/calculadora-rlc/imagenes/resistor.png
-http://lewatoto.github.io/calculadora-rlc/imagenes/inductor.png
-http://lewatoto.github.io/calculadora-rlc/imagenes/capacitor.png
-http://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700
-
-NETWORK:
+NETWORK
 *

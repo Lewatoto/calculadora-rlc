@@ -3,26 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <title>Calculadora RLC</title>
-<link href="css/todo.css" rel="stylesheet">
+<link href="./css/todo.css" rel="stylesheet">
 </head>
 
 <body>
-    
+    <div id="todo">
+
     <div id="titulo">
     Calculadora RLC
     </div>
         
     <br>
-    <div id="contenido2">
         
-    <div id="contenido">
+    <div class="contenido">
         <h2>Resistor</h2>
         <center>
         <img src="./imagenes/resistor.png" id="iresistor">
         </center>
         Valor del resistor:<input type="text" id="resultadoresistor" readonly>Ω<br> 
         <form id="resistorf">
-            <select class="resistor" onChange="vresistor()">
+            <select class="resistor" id="resistor1" onChange="vresistor()">
                 <option value="0">1</option>
                 <option value="0">Negro</option>
                 <option value="1">Marrón</option>
@@ -36,7 +36,7 @@
                 <option value="9">Blanco</option>
             </select>
 
-            <select class="resistor" onChange="vresistor()">
+            <select class="resistor" id="resistor2" onChange="vresistor()">
                 <option value="0">2</option>
                 <option value="0">Negro</option>
                 <option value="1">Marrón</option>
@@ -50,7 +50,7 @@
                 <option value="9">Blanco</option>
             </select>
        
-            <select class="resistor" onChange="vresistor()">
+            <select class="resistor" id="resistor3" onChange="vresistor()">
                 <option value="0">3</option>
                 <option value="-2">Plateado</option>
                 <option value="-1">Dorado</option>
@@ -66,7 +66,7 @@
                 <option value="9">Blanco</option>
             </select>
          
-            <select class="resistor" onChange="vresistor()">
+            <select class="resistor" id="resistor4" onChange="vresistor()">
                 <option value="0">4</option>
                 <option value="0.05">Gris</option>
                 <option value="0.25">Azul</option>
@@ -84,14 +84,14 @@
     
     <br>    
         
-    <div id="contenido">
+    <div class="contenido">
         <h2>Inductor</h3>
         <center>
             <img src="./imagenes/inductor.png" id="iinductor">
         </center>
         Valor del inductor:<input type="text" id="resultadoinductor" readonly>H<br> 
         <form>
-            <select class="inductor" onChange="vinductor()">
+            <select class="inductor" id="inductor1" onChange="vinductor()">
                 <option value="0">1</option>
                 <option value="0">Negro</option>
                 <option value="1">Marrón</option>
@@ -105,7 +105,7 @@
                 <option value="9">Blanco</option>
             </select>
 
-            <select class="inductor" onChange="vinductor()">
+            <select class="inductor" id="inductor2" onChange="vinductor()">
                 <option value="0">2</option>
                 <option value="0">Negro</option>
                 <option value="1">Marrón</option>
@@ -119,7 +119,7 @@
                 <option value="9">Blanco</option>
             </select>
             
-            <select class="inductor" onChange="vinductor()">
+            <select class="inductor" id="inductor3" onChange="vinductor()">
                 <option value="0">3</option>
                 <option value="-2">Plateado</option>
                 <option value="-1">Dorado</option>
@@ -130,7 +130,7 @@
                 <option value="4">Amarillo</option>
             </select>
          
-            <select class="inductor" onChange="vinductor()">
+            <select class="inductor" id="inductor4" onChange="vinductor()">
                 <option value="0">4</option>
                 <option value="1">Marrón</option>
                 <option value="2">Rojo</option>
@@ -144,7 +144,7 @@
     
     <br>    
         
-    <div id="contenido">
+    <div class="contenido">
         <h2>Capacitor</h2>
         <center>
             <img src="./imagenes/capacitor.png" id="icapacitor">
@@ -152,7 +152,7 @@
         Valor del capacitor:
         <input type="text" id="resultadocapacitor" size="25" readonly>F<br>
         <form>
-            <select class="capacitor" onChange="vcapacitor()">
+            <select class="capacitor" id="capacitor1" onChange="vcapacitor()">
                 <option value=" "> - </option>
                 <option value="4">0G</option>
                 <option value="5.5">0L</option>
@@ -180,7 +180,7 @@
                 <option value="1000">3A</option>
             </select>
         
-            <select class="capacitor" onchange="vcapacitor()">
+            <select class="capacitor" id="capacitor2" onchange="vcapacitor()">
                 <option value="0">-</option>
                 <option value="0">0</option>
                 <option value="1">1</option>
@@ -194,7 +194,7 @@
                 <option value="9">9</option>
             </select>
             
-            <select class="capacitor" onchange="vcapacitor()">
+            <select class="capacitor" id="capacitor3" onchange="vcapacitor()">
                 <option value="0">-</option>
                 <option value="0">0</option>
                 <option value="1">1</option>
@@ -208,7 +208,7 @@
                 <option value="9">9</option>
             </select>
             
-            <select class="capacitor" onchange="vcapacitor()">
+            <select class="capacitor" id="capacitor4" onchange="vcapacitor()">
                 <option value="0">-</option>
                 <option value="0">0</option>
                 <option value="1">1</option>
@@ -222,7 +222,7 @@
                 <option value="9">9</option>
             </select>
             
-            <select class="capacitor" onchange="vcapacitor()">
+            <select class="capacitor" id="capacitor5" onchange="vcapacitor()">
                 <option value=" ">-</option>
                 <option value=" +/- 20%">Ninguno</option>
                 <option value=" +/- 0.10 p">B</option>
@@ -241,48 +241,18 @@
             </select>
         </form>
     </div>
-        
-        </div>
-    <br>
-    <!--
-    <div id="informacion">
-        <p>
-        Autor Gerson Alvarado <a href="http://frechako.blospot.com">@Lewatoto</a>
-        </p>
+
     </div>
-    -->
-    <br>
-    <!--
-    <center>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
-<!-- texto4 -->
-<!--
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:15px"
-     data-ad-client="ca-pub-9355426560556041"
-     data-ad-slot="3316577810"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    </center>
     <br>
     <br>
-    <center>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- calculadora rlc -->
-    <!--
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-9355426560556041"
-     data-ad-slot="7820829418"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    </center>
-    -->
 </body>
     
 <footer>
     <script src="./js/todo.js"></script>
+    <div id="informacion">
+        <p>
+        Versión: 1.0<br>
+        Autor: Gerson Alvarado <a href="http://frechako.blospot.com">@Lewatoto</a></p>
+    </div>
 </footer>
 </html>
