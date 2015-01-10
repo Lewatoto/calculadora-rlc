@@ -2,6 +2,7 @@
   "version": "1.0",
   "name": "Calculadora RLC",
   "launch_path": "/calculadora-rlc/index.html",
+  "appcache_path": "/cache.manifest",
   "type": "web",
   "description": "Conoce el valor de los resistores, capacitores e inductores",
   "icons": {
@@ -16,7 +17,7 @@
   },
   "developer": {
     "name": "Gerson Alvarado",
-    "url": "http://www.frechako.blogspot.com"
+    "url": "http://frechako.blogspot.com/2015/01/calculadora-rlc.html"
   },
   "installs_allowed_from": [
     "*"
