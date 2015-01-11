@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" manifest="cache.appcache">
+<html lang="es" manifest="/cache.appcache">
 <head>
 <meta charset="UTF-8">
 <link href="./imagenes/icono/favicon.ico" rel="icon" type="image/x-icon" />
@@ -14,15 +14,15 @@
     <div id="titulo">
     Calculadora RLC
     </div>
-        
+
     <br>
-        
+
     <div class="contenido">
         <h2>Resistor</h2>
         <center>
         <img src="./imagenes/resistor.png" id="iresistor">
         </center>
-        Valor del resistor:<input type="text" id="resultadoresistor" readonly>Ω<br> 
+        Valor del resistor:<input type="text" id="resultadoresistor" readonly>Ω<br>
         <form id="resistorf">
             <select class="resistor" id="resistor1" onChange="vresistor()">
                 <option value="0">1</option>
@@ -51,7 +51,7 @@
                 <option value="8">Gris</option>
                 <option value="9">Blanco</option>
             </select>
-       
+
             <select class="resistor" id="resistor3" onChange="vresistor()">
                 <option value="0">3</option>
                 <option value="-2">Plateado</option>
@@ -67,7 +67,7 @@
                 <option value="8">Gris</option>
                 <option value="9">Blanco</option>
             </select>
-         
+
             <select class="resistor" id="resistor4" onChange="vresistor()">
                 <option value="0">4</option>
                 <option value="0.05">Gris</option>
@@ -82,16 +82,16 @@
             </select>
         </form>
         <br>
-    </div>   
-    
-    <br>    
-        
+    </div>
+
+    <br>
+
     <div class="contenido">
         <h2>Inductor</h3>
         <center>
             <img src="./imagenes/inductor.png" id="iinductor">
         </center>
-        Valor del inductor:<input type="text" id="resultadoinductor" readonly>H<br> 
+        Valor del inductor:<input type="text" id="resultadoinductor" readonly>H<br>
         <form>
             <select class="inductor" id="inductor1" onChange="vinductor()">
                 <option value="0">1</option>
@@ -120,7 +120,7 @@
                 <option value="8">Gris</option>
                 <option value="9">Blanco</option>
             </select>
-            
+
             <select class="inductor" id="inductor3" onChange="vinductor()">
                 <option value="0">3</option>
                 <option value="-2">Plateado</option>
@@ -131,7 +131,7 @@
                 <option value="3">Naranja</option>
                 <option value="4">Amarillo</option>
             </select>
-         
+
             <select class="inductor" id="inductor4" onChange="vinductor()">
                 <option value="0">4</option>
                 <option value="1">Marrón</option>
@@ -143,14 +143,14 @@
             </select>
         </form>
     </div>
-    
-    <br>    
-        
+
+    <br>
+
     <div class="contenido">
         <h2>Capacitor</h2>
         <center>
             <img src="./imagenes/capacitor.png" id="icapacitor">
-        </center> 
+        </center>
         Valor del capacitor:
         <input type="text" id="resultadocapacitor" size="25" readonly>F<br>
         <form>
@@ -181,7 +181,7 @@
                 <option value="630">2J</option>
                 <option value="1000">3A</option>
             </select>
-        
+
             <select class="capacitor" id="capacitor2" onchange="vcapacitor()">
                 <option value="0">-</option>
                 <option value="0">0</option>
@@ -195,7 +195,7 @@
                 <option value="8">8</option>
                 <option value="9">9</option>
             </select>
-            
+
             <select class="capacitor" id="capacitor3" onchange="vcapacitor()">
                 <option value="0">-</option>
                 <option value="0">0</option>
@@ -209,7 +209,7 @@
                 <option value="8">8</option>
                 <option value="9">9</option>
             </select>
-            
+
             <select class="capacitor" id="capacitor4" onchange="vcapacitor()">
                 <option value="0">-</option>
                 <option value="0">0</option>
@@ -223,7 +223,7 @@
                 <option value="8">8</option>
                 <option value="9">9</option>
             </select>
-            
+
             <select class="capacitor" id="capacitor5" onchange="vcapacitor()">
                 <option value=" ">-</option>
                 <option value=" +/- 20%">Ninguno</option>
@@ -248,13 +248,13 @@
     <br>
     <br>
 </body>
-    
+
 <footer>
     <script src="./js/todo.js"></script>
     <div id="informacion">
         <p>
         Versión: 1.0<br>
-        Autor:<a href="mailto:lewatoto.info@gmail.com">Gerson Alvarado</a> <br> 
+        Autor:<a href="mailto:lewatoto.info@gmail.com">Gerson Alvarado</a> <br>
         <a href="http://frechako.blogspot.com/2015/01/calculadora-rlc.html" target='_blank'>Sitio web</a>
         </p>
     </div>

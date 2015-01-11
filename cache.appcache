@@ -1,13 +1,10 @@
 CACHE MANIFEST
 # v2 2014-11-16
 
-index.html
-css/todo.css
-js/todo.js
-js/a_cache.js
-imagenes/capacitor.png
-imagenes/inductor.png
-imagenes/resistor.png
-
-NETWORK
-*
+/index.html
+/css/todo.css
+/js/todo.js
+/js/a_cache.js
+/imagenes/capacitor.png
+/imagenes/inductor.png
+/imagenes/resistor.png
