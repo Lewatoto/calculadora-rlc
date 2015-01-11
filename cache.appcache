@@ -13,11 +13,3 @@ http://lewatoto.github.io/calculadora-rlc/imagenes/capacitor.png
 
 NETWORK:
 *
-
-#FALLBACK:
-#js/a_cache.js
-#css/todo.css
-#js/todo.js
-#imagenes/resistor.png
-#imagenes/inductor.png
-#imagenes/capacitor.png
