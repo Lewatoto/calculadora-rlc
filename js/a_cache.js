@@ -9,7 +9,6 @@
 var appCache = window.applicationCache;
 
 function estadocache(){
-  return 'si1';
   switch (appCache.status) {
     case appCache.UNCACHED: // UNCACHED == 0
     return 'UNCACHED';
