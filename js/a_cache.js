@@ -35,6 +35,4 @@ function estadocache(){
     }
   };
 
-  window.onload = alert("va a pasasr");
   window.onload = estadocache();
-  window.onload = alert("si paso");

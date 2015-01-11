@@ -1,11 +1,11 @@
 CACHE MANIFEST
-# v5 2014-11-15
+# v1 2014-11-15
 
 CACHE:
 http://lewatoto.github.io/calculadora-rlc/index.html
 http://lewatoto.github.io/calculadora-rlc/cache.appcache
 http://lewatoto.github.io/calculadora-rlc/css/todo.css
-#http://lewatoto.github.io/calculadora-rlc/js/a_cache.js
+http://lewatoto.github.io/calculadora-rlc/js/a_cache.js
 http://lewatoto.github.io/calculadora-rlc/js/todo.js
 http://lewatoto.github.io/calculadora-rlc/imagenes/resistor.png
 http://lewatoto.github.io/calculadora-rlc/imagenes/inductor.png
