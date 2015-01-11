@@ -8,7 +8,6 @@
 
 var appCache = window.applicationCache;
 
-function estadocache(){
   switch (appCache.status) {
     case appCache.UNCACHED: // UNCACHED == 0
     return 'UNCACHED';
@@ -31,7 +30,4 @@ function estadocache(){
     default:
       return 'UKNOWN CACHE STATUS';
       break;
-    }
   };
-
-  window.onload = estadocache();
