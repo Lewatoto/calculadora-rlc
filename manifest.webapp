@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "name": "Calculadora RLC",
-  "launch_path": "/index.html",
+  "launch_path": "/calculadora-rlc/index.html",
   "appcache_path": "/calculadora-rlc/cache.appcache",
   "type": "web",
   "description": "Conoce el valor de los resistores, capacitores e inductores",
