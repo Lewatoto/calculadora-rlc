@@ -11,8 +11,8 @@ http://lewatoto.github.io/calculadora-rlc/imagenes/resistor.png
 http://lewatoto.github.io/calculadora-rlc/imagenes/inductor.png
 http://lewatoto.github.io/calculadora-rlc/imagenes/capacitor.png
 
-#NETWORK:
-#*
+NETWORK:
+*
 
 #FALLBACK:
 #js/a_cache.js

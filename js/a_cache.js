@@ -9,6 +9,7 @@
 var appCache = window.applicationCache;
 
 function estadocache(){
+  return 'si1';
   switch (appCache.status) {
     case appCache.UNCACHED: // UNCACHED == 0
     return 'UNCACHED';
@@ -34,4 +35,6 @@ function estadocache(){
     }
   };
 
+  window.onload = alert("va a pasasr");
   window.onload = estadocache();
+  window.onload = alert("si paso");
