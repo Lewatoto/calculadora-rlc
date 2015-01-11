@@ -1,8 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700);
-
 body {
     background-color: #fbfbfc;
-    font-family: Fira Sans, sans-serif;
+    font-family: sans-serif;
 }
 
 h2 {
@@ -20,7 +18,6 @@ a {
     border-color: #92cedb;
     border-width: 1px;
     border-radius: 2rem;
-    font-weight: normal;
     font-size: 1rem;
     line-height: 2rem;
     text-align: center;
@@ -34,7 +31,7 @@ a {
 #titulo {
     color: #484848;
     background-color: #a7ebfa;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
     border-style: solid;
     border-width: 1px;
