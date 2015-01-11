@@ -3,7 +3,7 @@ CACHE MANIFEST
 
 CACHE:
 http://lewatoto.github.io/calculadora-rlc/
-http://lewatoto.github.io/cache.appcache
+http://lewatoto.github.io/calculadora-rlc/cache.appcache
 http://lewatoto.github.io/calculadora-rlc/css/todo.css
 http://lewatoto.github.io/calculadora-rlc/js/a_cache.js
 http://lewatoto.github.io/calculadora-rlc/js/todo.js
@@ -15,11 +15,9 @@ NETWORK:
 *
 
 FALLBACK:
-http://lewatoto.github.io/calculadora-rlc/
-http://lewatoto.github.io/cache.appcache
-http://lewatoto.github.io/calculadora-rlc/css/todo.css
-http://lewatoto.github.io/calculadora-rlc/js/a_cache.js
-http://lewatoto.github.io/calculadora-rlc/js/todo.js
-http://lewatoto.github.io/calculadora-rlc/imagenes/resistor.png
-http://lewatoto.github.io/calculadora-rlc/imagenes/inductor.png
-http://lewatoto.github.io/calculadora-rlc/imagenes/capacitor.png
+css/todo.css
+js/a_cache.js
+js/todo.js
+imagenes/resistor.png
+imagenes/inductor.png
+imagenes/capacitor.png
