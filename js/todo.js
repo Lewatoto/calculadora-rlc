@@ -9,7 +9,7 @@ var vresistor = function () {
     var valor4 = franja4.options[franja4.selectedIndex].value;
     var entero = ((parseInt(valor1) * 10) + parseInt(valor2)) * Math.pow(10, parseFloat(valor3));
     var exponente = " ";
-    
+
     if (entero >= 1000 && entero < 1000000) {
         entero = entero / 1000;
         exponente = "K";
@@ -22,7 +22,7 @@ var vresistor = function () {
         entero = entero / 1000000000;
         exponente = "G";
     }
-    
+
     document.getElementById("resultadoresistor").value = entero.toFixed(2) + " +/- " + valor4 + "%  " + exponente;
 };
 
@@ -39,22 +39,22 @@ var vinductor = function () {
     var entero = ((parseFloat(valor1) * 10) + parseFloat(valor2)) * Math.pow(10, parseFloat(valor3));
     var resultado = entero * 0.000001;
     var exponente = " ";
-        
+
     if (resultado < 0.000001){
         resultado = resultado * 1000000000;
         exponente = "n";
     }
-    
+
     if (resultado >= 0.000001 && resultado < 0.001){
         resultado = resultado * 1000000;
         exponente = "µ";
     }
-    
+
     if (resultado >= 0.001 && resultado < 0.99){
         resultado = resultado * 1000;
         exponente = "m";
     }
-    
+
     document.getElementById("resultadoinductor").value = resultado.toFixed(2) + " +/- " + valor4 + "%  " + exponente;
 };
 
@@ -72,27 +72,27 @@ var vcapacitor = function () {
     var entero = ((parseFloat(valor1) * 10) + parseFloat(valor2)) * Math.pow(10,parseFloat(valor3));
     var resultado = entero * 0.000000000001;
     var exponente = " ";
-    
+
     if (resultado < 0.000000001){
         resultado = resultado * 1000000000000;
         exponente = "p";
     }
-    
+
     if (resultado >= 0.000000001 && resultado < 0.000001){
         resultado = resultado * 1000000000;
         exponente = "n";
     }
-    
+
     if (resultado >= 0.000001 && resultado < 0.001){
         resultado = resultado * 1000000;
         exponente = "µ";
     }
-    
+
     if (resultado >= 0.001 && resultado < 0.1){
         resultado = resultado * 1000;
         exponente = "m";
     }
-    
+
     if (valort == 0){
         document.getElementById("resultadocapacitor").value = resultado.toFixed(2) + valortol + " " + exponente;
     }
