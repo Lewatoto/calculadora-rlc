@@ -13,7 +13,8 @@
     "60": "/calculadora-rlc/imagenes/icono/icono60.png",
     "64": "/calculadora-rlc/imagenes/icono/icono64.png",
     "128": "/calculadora-rlc/imagenes/icono/icono128.png",
-    "256": "/calculadora-rlc/imagenes/icono/icono256.png"
+    "256": "/calculadora-rlc/imagenes/icono/icono256.png",
+    "512": "/calculadora-rlc/imagenes/icono/icono512.png"
   },
   "developer": {
     "name": "Gerson Alvarado",
