@@ -1,6 +1,6 @@
 body {
     background-color: #fbfbfc;
-    font-family: sans-serif;
+    font-family: "MozTT", sans-serif;
 }
 
 h2 {
@@ -10,6 +10,19 @@ h2 {
 a {
     text-decoration: none;
     color: #484800;
+}
+
+.reset {
+    vertical-align: middle;
+    background-color: #00CAF2;
+    color: #FFF;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+    border: solid 0.1rem #e8e8e8;
+    border-radius: 0.5rem;
 }
 
 .resistor, .inductor, .capacitor {

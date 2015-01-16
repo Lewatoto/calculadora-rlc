@@ -24,7 +24,7 @@
         Valor del resistor:<input type="text" id="resultadoresistor" readonly>Ω<br>
         <form id="resistorf">
             <select class="resistor" id="resistor1" onChange="vresistor()">
-                <option value="0">1</option>
+                <option value="0" selected="selected">1</option>
                 <option value="0">Negro</option>
                 <option value="1">Marrón</option>
                 <option value="2">Rojo</option>
@@ -38,7 +38,7 @@
             </select>
 
             <select class="resistor" id="resistor2" onChange="vresistor()">
-                <option value="0">2</option>
+                <option value="0" selected="selected">2</option>
                 <option value="0">Negro</option>
                 <option value="1">Marrón</option>
                 <option value="2">Rojo</option>
@@ -52,7 +52,7 @@
             </select>
 
             <select class="resistor" id="resistor3" onChange="vresistor()">
-                <option value="0">3</option>
+                <option value="0" selected="selected">3</option>
                 <option value="-2">Plateado</option>
                 <option value="-1">Dorado</option>
                 <option value="0">Negro</option>
@@ -68,7 +68,7 @@
             </select>
 
             <select class="resistor" id="resistor4" onChange="vresistor()">
-                <option value="0">4</option>
+                <option value="0" selected="selected">4</option>
                 <option value="0.05">Gris</option>
                 <option value="0.25">Azul</option>
                 <option value="0.5">Verde</option>
@@ -79,8 +79,8 @@
                 <option value="10">Plateado</option>
                 <option value="20">Ninguno</option>
             </select>
+            <input type="reset" value="Reiniciar" class="reset" onclick="reiniciarr()"/>
         </form>
-        <br>
     </div>
 
     <br>
@@ -140,6 +140,7 @@
                 <option value="10">Plateado</option>
                 <option value="20">Ninguno</option>
             </select>
+            <input type="reset" value="Reiniciar" class="reset" onclick="reiniciari()"/>
         </form>
     </div>
 
@@ -240,6 +241,7 @@
                 <option value=" +100% -0%">P</option>
                 <option value=" +80% -20%">Z</option>
             </select>
+            <input type="reset" value="Reiniciar" class="reset" onclick="reiniciarc()"/>
         </form>
     </div>
 

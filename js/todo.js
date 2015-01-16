@@ -101,6 +101,17 @@ var vcapacitor = function () {
     }
 };
 
+var reiniciarr = function () {
+  document.getElementById("resultadoresistor").value = "";
+}
+
+var reiniciari = function () {
+  document.getElementById("resultadoinductor").value = "";
+}
+
+var reiniciarc = function () {
+  document.getElementById("resultadocapacitor").value = "";
+}
 /*var install = function () {
     var inst = window.navigator.mozApps.install("http://lewatoto.github.io/calculadora-rlc/manifest.webapp")
 	   inst.onsuccess = function () {
